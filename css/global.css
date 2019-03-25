@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+h2, p {
+    text-align: center;
+    color: #b7b5b5;
+    background-color: #F4F4F4;
+}
+h2 {
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: normal;
+}
+p {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.head {
+    height: 68px;
+    line-height: 68px;
+}
+.section {
+    background-color: #FFF0F5;
+}
+.head img {
+    height: 40px;
+    vertical-align: middle;
+    margin-left: 28px;
+}
+.swiper-container {
+    height: 400px;
+}
+.section-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.section-wrap .container {
+    overflow: hidden;
+    width: 100%;
+    font-size: 0;
+}
+.container .grid {
+    height: 0;
+    padding-bottom: 56%;
+    display: inline-block;
+    width: 48%;
+    margin: 0 0;
+    position: relative;
+    overflow: hidden;
+    margin-top: 2%;
+    border: 1px solid white;
+}
+.container .grid:hover {
+    border-color: #FF8C69;
+}
+.grid img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container .grid:nth-child(2n) {
+    float: right;
+}
+.footer {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+    background: #F5F5F5;
+}
+.footer img {
+    width: 140px;
+    vertical-align: middle;
+}
+@media screen and (min-width: 1024px) {
+    .section-wrap {
+        width: 100%;
+        max-width: 1024px;
+    }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .section-wrap {
+        width: 100%;
+        max-width: 768px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .section-wrap .container .grid {
+        width: 90%;
+        padding-bottom: 100%;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        margin-top: 6px;
+    }
+}
+
+
+
+
+
+
